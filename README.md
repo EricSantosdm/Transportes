@@ -1,4 +1,5 @@
-
+###
+Eric dos Santos Bezerra 
 
 ### Descrição do Problema:
 O processo manual de solicitação de diárias e viagens na UFERSA é suscetível a erros, atrasos e dificuldades de controle. Um sistema automatizado pode resolver esses problemas ao fornecer uma forma rápida e precisa de gerar documentos, rastrear aprovações e organizar as informações.
@@ -30,7 +31,7 @@ Criar um sistema web simples para facilitar a criação e gestão de documentos 
 
 #### 1. **Front-End:**
    - Framework: React.js ou outra escolha leve como Vue.js.
-   - Autenticação integrada com o sistema de SSO da UFERSA.
+   - Autenticação integrada com o SIGAA da UFERSA.
    - Interface simples com um dashboard para acompanhamento das solicitações.
 
 #### 2. **Back-End:**

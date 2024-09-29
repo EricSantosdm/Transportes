@@ -52,9 +52,9 @@
 <body>
     <div class="container border p-4">
         <div class="text-center">
-            <img src="logo-ufersa.png" alt="Logo da UFERSA" width="80px">
+            <img src="logo-ufersa.png" alt="Logo da UFERSA" width="80px"><br>
             <span style="font-weight: bold;">MINISTÉRIO DA EDUCAÇÃO UNIVERSIDADE FEDERAL RURAL DO SEMI-ÁRIDO</span>
-            <img src="progepe.png" alt="Logo da Progepe" width="80px">
+  
         </div>
 
         <h2 class="text-center">Formulário de Solicitação de Diárias e Viagens</h2>
@@ -202,6 +202,7 @@
                 jsPDF: { unit: 'cm', format: 'a4', orientation: 'portrait' }
             };
             html2pdf().set(opt).from(element).save();
+           
         });
     </script>
 </body>
